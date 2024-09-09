@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/seminars/first/hw/Product.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/first/hw/Shop.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/first/hw/ShopTest.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/first/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/book/Book.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/book/BookRepository.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/book/BookService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/book/InMemoryBookRepository.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/card/CreditCard.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/card/PaymentForm.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/database/Database.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/database/DataProcessor.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/hotel/BookingService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/hotel/HotelService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/message/MessageService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/message/NotificationService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/weather/WeatherReporter.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/fourth/weather/WeatherService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/third/tdd/User.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/third/tdd/MoodAnalyser.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/hw/Car.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/hw/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/hw/Motorcycle.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/hw/Vehicle.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/life_cycle_JUnit5/TestLC.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/simple_shopping_cart/Cart.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/simple_shopping_cart/Main.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/simple_shopping_cart/Product.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/simple_shopping_cart/Shop.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/second/simple_shopping_cart/TextUserInterface.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/third/coverage/SomeService.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/third/hw/MainHW.java" />
+      <file url="file://$PROJECT_DIR$/src/seminars/third/tdd/UserRepository.java" />
+    </excludeFromCompile>
+  </component>
+</project>

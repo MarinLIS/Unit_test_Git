@@ -1,11 +1,10 @@
-*Предполагаем что в записной книжке есть только id, имя и телефон*
 
 **Юнит-тесты**
 
 testAddContactPositive  
 Проверяет успешное добавление нового контакта в список контактов.
 
-testAddContactDouble  
+testAddDoubleContact 
 Проверяет, что приложение не позволяет добавлять дублирующиеся контакты с одинаковыми именами и телефонами.
 
 testChangeContactPositive  
@@ -20,38 +19,32 @@ testDeleteContactPositive
 testDeleteContactNotExisting  
 Проверяет поведение при попытке удаления контакта, который не существует.
 
-testGetContactId  
+testGetContactById  
 Проверяет успешное получение контакта по его идентификатору.
 
-testGetContactIdNotExisting  
+testGetContactByIdNotExisting  
 Проверяет поведение при попытке получения контакта, который не существует.
 
-testGetEmptyContactList  
+testGetAllContactsEmptyList  
 Проверяет поведение метода для получения всех контактов, когда список контактов пуст.
 
-tesGetContactsListPositive
+tesGetAllContactsListPositive
 Проверяет поведение метода для получения всех контактов, когда список контактов не пуст.
 
 testAddInvalidPhoneNumber  
 Проверяет, что приложение не позволяет добавлять контакты с некорректным форматом номера телефона.
 
-testEditEmptyFields  
-Проверяет, что приложение не позволяет редактировать контакт, оставляя обязательные поля пустыми.
-
-testSearchContactByName 
+testGetContactByName 
 Проверяет успешный поиск контакта по имени.
 
-testSearchContactByNameNotExisting 
+testGetContactByNameNotExisting 
 Проверяет поведение при попытке поиска контакта по имени, который не существует.
 
-testSearchContactByPhoneNumber 
+testGetContactByPhoneNumber 
 Проверяет успешный поиск контакта по номеру телефона.
 
-testSearchContactByPhoneNumberNotExisting 
+testGetContactByPhoneNumberNotExisting 
 Проверяет поведение при попытке поиска контакта по номеру телефона, который не существует.
-
-testContactDouble  
-Проверяет метод equals, чтобы два одинаковых контакта считались равными.
 
 **Интеграционные тесты**
 
@@ -64,14 +57,14 @@ testAddEditContact
 testAddDeleteContact  
 Проверяет, что контакт можно добавить и затем успешно удалить из базы данных.
 
-testLoadFile  
+testUpLoadFile  
 Проверяет успешную загрузку контактов из файла при запуске приложения.
 
 testSaveToFile  
 Проверяет успешное сохранение контактов в файл при выходе из приложения.
 
-testBackupAndRestoreContacts  
-Проверяет, что контакты можно создать резервную копию и восстановить из нее без потери данных.
+testSaveToJSON
+Проверяет, что файл сохраняется в верном формате
 
 
 **Сквозные тесты**
